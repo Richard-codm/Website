@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+body{
+    text-align: center;
+    align-items: center;
+
+}
+
+h1{
+    padding: 180px 0 20px 0;
+    font-size: 80px;
+    font-style:normal;
+    font-weight: bold;
+    color: brown
+}
+
+
+
+input{border-radius: 30px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    width: 35%;
+    height: 60px;
+}
+
+
+button{
+    width: 5%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    height: 60px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Details</title>
+    <link rel="stylesheet" href="Benz.css">
+    <script>alert("Please fill in all the required fields.")</script>
+</head>
+<body>
+    <form method="get" action="submit_medical_details.php">
+    <header class="head">
+        <h1 class="h1">Fill in your medical details</h1>
+        <label for="name">Full name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required> <br> <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required> <br> <br>
+        <label for="phone">Phone number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required pattern="[0-9]{10}"> <br> <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" placeholder="Enter your age" required min="0" max="120"> <br> <br>
+        <label for="gender">Gender:</label> 
+        <select id="gender" name="gender" required>
+            <option value="">Select your gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select> <br> <br>
+        <label for="blood-type">Blood type:</label>
+        <select id="blood-type" name="blood-type" required>
+            <option value="">Select your blood type</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+        </select> <br> <br>
+        <label for="genotype">Genotype:</label>
+        <select id="genotype" name="genotype" required>
+            <option value="">Select your genotype</option>
+            <option value="AA">AA</option>
+            <option value="AS">AS</option>
+            <option value="SS">SS</option>
+            <option value="AC">AC</option>
+            <option value="SC">SC</option>
+        </select> <br> <br>
+        <label for="medical-history">Medical history:</label> <br>
+        <textarea id="medical-history" name="medical-history" rows="4" cols="50" placeholder="Enter your medical history" required></textarea> <br> <br>
+        <label for="allergies">Allergies:</label> <br>
+        <textarea id="allergies" name="allergies" rows="4" cols="50" placeholder="Enter your allergies" required></textarea> <br> <br>
+        <label for="current-medications">Current medications:</label> <br>
+        <textarea id="current-medications" name="current-medications" rows="4" cols="50" placeholder="Enter your current medications" required></textarea> <br> <br>
+        <label for="emergency-contact">Emergency contact:</label> <br>
+        <input type="text" id="emergency-contact" name="emergency-contact" placeholder="Enter your emergency contact" required> <br> <br>
+        <label for="insurance-provider">Insurance provider:</label> <br>    
+    <input type="text" id="insurance-provider" name="insurance-provider" placeholder="Enter your insurance provider" required> <br> <br>
+    <label for="insurance-policy-number">Insurance policy number:</label> <br>
+    <input type="text" id="insurance-policy-number" name="insurance-policy-number" placeholder="Enter your insurance policy number" required> <br> <br>
+    <button type="submit">Submit</button>
+    </form>
+</header>
+</body>
+</html>

@@ -1,0 +1,164 @@
+*{
+    scroll-behavior: smooth;
+}
+
+
+header{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    background-color: #f91100;
+    font-family: georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+border-radius: 50px;
+}
+
+h1{
+color:rgb(0, 4, 255);
+
+}
+
+#Home{
+text-align: center;
+padding: 100px;
+}
+
+Body{
+    background:
+url(images/download.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+    text-decoration: none;
+    color: #00ffa6;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#About{
+
+display: flex;
+   justify-content: space-between;
+    align-items: center;
+    font-family: georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.div1{
+    width: 100%;
+    padding: 0 100px 0 100px;
+}
+
+.container1{
+   gap: 30px;
+padding: 20px;
+border-radius: 50px; 
+display:flex; 
+}
+
+ .div3{
+text-align: center;
+        font-family: georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: bold;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 200px;
+}
+
+.div9{
+    margin: 0 250px;
+padding: 75px;
+background-color: bisque;
+border-radius: 50px;
+}
+
+iframe{
+justify-content: center;
+border-radius: 50px;
+width: 100%;
+}
+
+.div1{
+padding: 20px;
+border-radius: 50px; 
+ background-color: antiquewhite;
+}
+
+.div2{
+img{
+border-radius: 50px;
+}
+}
+
+.div4{
+padding: 20px;
+border-radius: 50px; 
+ background-color: antiquewhite;
+}
+
+.div5{
+padding: 20px;
+border-radius: 50px; 
+ background-color: antiquewhite;
+}
+
+.div6{
+padding: 20px;
+border-radius: 50px; 
+ background-color: antiquewhite;
+}
+
+.div7{
+padding: 20px;
+border-radius: 50px; 
+ background-color: antiquewhite;
+}
+
+.div8{
+padding: 20px;
+border-radius: 50px; 
+ background-color: antiquewhite;
+}
+
+.div10{
+padding: 20px;
+border-radius: 50px; 
+ background-color: antiquewhite;
+}
+
+input{
+border-radius: 50px;
+border: none;
+height: 25px;
+}
+
+textarea{
+
+border-radius: 5px;
+border: none;
+height: 100px;
+}
