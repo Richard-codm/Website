@@ -235,6 +235,8 @@ border-radius: 50px;
 border: none;
 
 height: 25px;
+
+width: 100%;
 }
 
 
@@ -243,11 +245,6 @@ textarea{
 border-radius: 5px;
 border: none;
 height: 100px;
-}
-
-
-@media screen {
-    max-width: 700px;
 }
 
 
