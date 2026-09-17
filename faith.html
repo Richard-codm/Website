@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Faith Academy | School Management</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="faith.css">
+</head>
+<body>
+	<div class="app-shell">
+		<aside class="sidebar" id="sidebar">
+			<div class="brand"><div class="brand-mark">FA</div><div><strong>Faith</strong><span>ACADEMY</span></div></div>
+			<div class="school-year">2024 / 2025 <span>⌄</span></div>
+			<nav class="main-nav" aria-label="Main navigation">
+				<p class="nav-label">Workspace</p>
+				<a class="nav-item active" href="#overview"><span class="nav-icon">▦</span> Overview</a>
+				<a class="nav-item" href="students.html"><span class="nav-icon">♧</span> Students <b>1,248</b></a>
+				<a class="nav-item" href="students.html#faculty"><span class="nav-icon">♙</span> Faculty</a>
+				<a class="nav-item" href="attendance.html"><span class="nav-icon">◷</span> Attendance</a>
+				<a class="nav-item" href="students.html#academics"><span class="nav-icon">▤</span> Academics</a>
+				<p class="nav-label nav-label-spaced">Manage</p>
+				<a class="nav-item" href="finance.html"><span class="nav-icon">◈</span> Finance <i class="alert-dot"></i></a>
+				<a class="nav-item" href="calendar.html"><span class="nav-icon">□</span> Calendar</a>
+				<a class="nav-item" href="#messages"><span class="nav-icon">▱</span> Messages <b class="message-count">4</b></a>
+			</nav>
+			<div class="sidebar-footer">
+				<a class="nav-item" href="students.html#settings"><span class="nav-icon">⚙</span> Settings</a>
+				<div class="help-card"><span class="help-icon">?</span><div><strong>Need a hand?</strong><small>Visit the help center</small></div><span>›</span></div>
+				<div class="profile-mini"><div class="avatar avatar-photo">JM</div><div><strong>Joseph Mensah</strong><small>Administrator</small></div><span>•••</span></div>
+			</div>
+		</aside>
+		<main class="main-content" id="overview">
+			<header class="topbar"><button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button><div class="breadcrumb"><span>Workspace</span><i>/</i><strong>Overview</strong></div><div class="top-actions"><button class="icon-button" aria-label="Search">⌕</button><button class="icon-button notification" aria-label="Notifications">♧<i></i></button><div class="top-profile"><div class="avatar avatar-photo">JM</div><span>Joseph Mensah</span><b>⌄</b></div></div></header>
+			<section class="welcome-row"><div><p class="eyebrow">Tuesday, October 15, 2024</p><h1>Good morning, Joseph <span>✦</span></h1><p class="subtitle">Here’s what’s happening across your academy today.</p></div><button class="primary-button" id="reportButton"><span>＋</span> Create report</button></section>
+			<section class="metrics-grid" aria-label="Key school metrics">
+				<article class="metric-card coral-card"><div class="metric-top"><span class="metric-icon">♧</span><span class="trend up">↗ 8.2%</span></div><p>Total students</p><h2>1,248</h2><small>Compared to last term</small></article>
+				<article class="metric-card green-card"><div class="metric-top"><span class="metric-icon">◷</span><span class="trend up">↗ 2.4%</span></div><p>Attendance rate</p><h2>94.8<span>%</span></h2><small>Excellent this week</small></article>
+				<article class="metric-card blue-card"><div class="metric-top"><span class="metric-icon">♙</span><span class="trend up">↗ 12.6%</span></div><p>Staff members</p><h2>86</h2><small>Across 4 departments</small></article>
+				<article class="metric-card yellow-card"><div class="metric-top"><span class="metric-icon">◈</span><span class="trend down">↘ 4.1%</span></div><p>Fee collection</p><h2>₦18.4<span>m</span></h2><small>82% of expected fees</small></article>
+			</section>
+			<section class="dashboard-grid">
+				<article class="panel attendance-panel" id="attendance"><div class="panel-heading"><div><h3>Attendance overview</h3><p>Daily attendance across all grades</p></div><button class="select-button">This week <span>⌄</span></button></div><div class="chart-wrap"><div class="y-axis"><span>100%</span><span>75%</span><span>50%</span><span>25%</span><span>0%</span></div><div class="bar-chart"><div class="grid-lines"><i></i><i></i><i></i><i></i><i></i></div><div class="bars"><div class="bar-set"><div class="bar present" style="height:88%"><span>94%</span></div><div class="bar absent" style="height:38%"></div><small>Mon</small></div><div class="bar-set"><div class="bar present" style="height:94%"><span>97%</span></div><div class="bar absent" style="height:28%"></div><small>Tue</small></div><div class="bar-set"><div class="bar present" style="height:85%"><span>92%</span></div><div class="bar absent" style="height:44%"></div><small>Wed</small></div><div class="bar-set"><div class="bar present" style="height:91%"><span>95%</span></div><div class="bar absent" style="height:35%"></div><small>Thu</small></div><div class="bar-set"><div class="bar present today" style="height:90%"><span>94.8%</span></div><div class="bar absent" style="height:36%"></div><small>Fri</small></div></div></div></div><div class="chart-legend"><span><i class="legend-dot present-dot"></i> Present</span><span><i class="legend-dot absent-dot"></i> Absent / late</span><a href="#attendance-details">View details →</a></div></article>
+				<article class="panel schedule-panel" id="calendar"><div class="panel-heading"><div><h3>Today’s schedule</h3><p>Tuesday, October 15</p></div><button class="more-button" aria-label="More schedule options">•••</button></div><div class="schedule-list"><div class="schedule-item"><time>08:00<small>AM</small></time><span class="schedule-line pink"></span><div><strong>Morning assembly</strong><small>Main courtyard · All students</small></div><span class="schedule-status done">Done</span></div><div class="schedule-item"><time>10:30<small>AM</small></time><span class="schedule-line gold"></span><div><strong>Academic board meeting</strong><small>Conference room · 8 attendees</small></div><span class="schedule-status now">Now</span></div><div class="schedule-item"><time>01:00<small>PM</small></time><span class="schedule-line blue"></span><div><strong>Parent orientation</strong><small>School hall · Grade 7 families</small></div></div><div class="schedule-item"><time>03:30<small>PM</small></time><span class="schedule-line mint"></span><div><strong>Girls’ basketball finals</strong><small>Sports complex</small></div></div></div><a class="panel-link" href="#full-calendar">Open full calendar <span>→</span></a></article>
+			</section>
+			<section class="lower-grid">
+				<article class="panel activity-panel" id="students"><div class="panel-heading"><div><h3>Recent activity</h3><p>Stay up to date with your school</p></div><button class="more-button" aria-label="More activity options">•••</button></div><div class="activity-list"><div class="activity-item"><div class="activity-avatar lavender">AO</div><div><strong>Amaka Okafor <span>enrolled a new student</span></strong><small>Grade 4 · 12 minutes ago</small></div><span class="activity-arrow">›</span></div><div class="activity-item"><div class="activity-avatar peach">KD</div><div><strong>Kwame Dapaah <span>submitted grades for 8B</span></strong><small>Mathematics · 42 minutes ago</small></div><span class="activity-arrow">›</span></div><div class="activity-item"><div class="activity-avatar mint">FN</div><div><strong>Finance office <span>received a fee payment</span></strong><small>₦240,000 · 1 hour ago</small></div><span class="activity-arrow">›</span></div></div><a class="panel-link" href="#all-activity">See all activity <span>→</span></a></article>
+				<article class="panel tasks-panel"><div class="panel-heading"><div><h3>My tasks</h3><p>3 tasks need your attention</p></div><button class="add-task" id="addTask" aria-label="Add task">＋</button></div><div class="task-list"><label class="task"><input type="checkbox"><span class="checkmark"></span><span>Review Grade 9 exam timetable</span><em class="urgent">Due today</em></label><label class="task"><input type="checkbox"><span class="checkmark"></span><span>Approve new admissions</span><em>Due tomorrow</em></label><label class="task"><input type="checkbox"><span class="checkmark"></span><span>Sign staff leave requests</span><em>Due Oct 18</em></label></div><button class="task-footer" id="viewTasks">View all tasks <span>→</span></button></article>
+			</section>
+			<footer><span>© 2024 Faith Academy</span><span>Last synced 2 minutes ago · <i class="online-dot"></i> System operational</span></footer>
+		</main>
+	</div>
+	<div class="toast" id="toast">Report workspace is ready to customize.</div>
+	<script>
+		const sidebar = document.getElementById('sidebar');
+		document.getElementById('menuToggle').addEventListener('click', () => sidebar.classList.toggle('open'));
+		const toast = document.getElementById('toast');
+			const showToast = (message) => { toast.textContent = message; toast.classList.add('show'); setTimeout(() => toast.classList.remove('show'), 2600); };
+		document.querySelectorAll('.sidebar a').forEach((link) => link.addEventListener('click', () => sidebar.classList.remove('open')));
+		document.getElementById('reportButton').addEventListener('click', () => showToast('Report workspace is ready to customize.'));
+		document.getElementById('addTask').addEventListener('click', () => showToast('New task composer opened.'));
+		document.getElementById('viewTasks').addEventListener('click', () => showToast('Showing all assigned tasks.'));
+		document.querySelectorAll('.task input').forEach((input) => input.addEventListener('change', (event) => { event.target.closest('.task').classList.toggle('complete', event.target.checked); }));
+	</script>
+</body>
+</html>
